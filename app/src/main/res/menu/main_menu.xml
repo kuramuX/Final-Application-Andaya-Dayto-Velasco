@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/option1"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:title="Todo"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/option2"
+        android:icon="@drawable/ic_baseline_pending_24"
+        android:title="Doing"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/option3"
+        android:icon="@drawable/ic_baseline_done_all_24"
+        android:title="Done"
+        app:showAsAction="ifRoom" />
+</menu>
